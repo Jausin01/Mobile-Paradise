@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57a03e602534e64bbfae33bb918c5de, type: 3}
+  m_Name: Marble
+  m_EditorClassIdentifier: Assembly-CSharp::MobileParadise.Games.Chess.View.PieceSpriteSet
+  _white:
+  - {fileID: 21300000, guid: fead03fdeea70b04e9fce85c049ef571, type: 3}
+  - {fileID: 21300000, guid: 03287f7107e8d3043bafa9b21f2cf498, type: 3}
+  - {fileID: 21300000, guid: 996e8328916385c46853cfcc01c61d98, type: 3}
+  - {fileID: 21300000, guid: 106079167e7ad314ea5fe3edcad272bd, type: 3}
+  - {fileID: 21300000, guid: d0ede10489fab774fb6890cf5ca159b5, type: 3}
+  - {fileID: 21300000, guid: ed8d50cd3f1b218438b363b9031ee95f, type: 3}
+  _black:
+  - {fileID: 21300000, guid: 21a2ce69aa82b5044b871eaa51af9289, type: 3}
+  - {fileID: 21300000, guid: a83651273ea58024390dfbcb1c99c099, type: 3}
+  - {fileID: 21300000, guid: 54eeaa5e23acf864ab203a1656623a5d, type: 3}
+  - {fileID: 21300000, guid: ff99ea285864eb14da26be1ab983b0fa, type: 3}
+  - {fileID: 21300000, guid: 33086cfb4269bb04db4fcbd327622320, type: 3}
+  - {fileID: 21300000, guid: 17c42e8d3a72b8643a99931fd1a2b961, type: 3}

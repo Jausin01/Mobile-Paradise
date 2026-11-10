@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57a03e602534e64bbfae33bb918c5de, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: Assembly-CSharp::MobileParadise.Games.Chess.View.PieceSpriteSet
+  _white:
+  - {fileID: 21300000, guid: b4fe2d3cbc0891f46a8fe6e58ff8170e, type: 3}
+  - {fileID: 21300000, guid: 6dc2e48f4aa66304ba99f0533d628b4b, type: 3}
+  - {fileID: 21300000, guid: c57c3344abca1fb4692b557bb543efbe, type: 3}
+  - {fileID: 21300000, guid: fedd6622c0c545944b3041662c122234, type: 3}
+  - {fileID: 21300000, guid: 52835d49a08c5044b946340daec2692c, type: 3}
+  - {fileID: 21300000, guid: 6787a35dd364116458ab9c8b1be7cee8, type: 3}
+  _black:
+  - {fileID: 21300000, guid: bc7a497a73a2d364c920a6b8e437eba5, type: 3}
+  - {fileID: 21300000, guid: 22a5beadea3c4db4ba6a2a33d5e1e338, type: 3}
+  - {fileID: 21300000, guid: 488660b283166cd41b9f702fe2f6503f, type: 3}
+  - {fileID: 21300000, guid: 5c3fc5c84c08f334cb565d8ad1b14482, type: 3}
+  - {fileID: 21300000, guid: bf577bd8df6ee9d44bfcc1408bf6e8af, type: 3}
+  - {fileID: 21300000, guid: 23f656341ba170f46aa89f2859e0d676, type: 3}

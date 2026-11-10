@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb66425e5b6c344b88b1efa1e04617, type: 3}
+  m_Name: GameCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MobileParadise.Menu.GameCatalog
+  Games:
+  - DisplayName: Chess
+    TitleKey: game.chess
+    SceneName: Chess_Game
+    Icon: {fileID: 21300000, guid: 52835d49a08c5044b946340daec2692c, type: 3}
+  - DisplayName: Memory
+    TitleKey: game.memory
+    SceneName: Memory_Game
+    Icon: {fileID: 21300000, guid: 9bfc740e60b0103499a9b31358f261c0, type: 3}
+  - DisplayName: Sudoku
+    TitleKey: game.sudoku
+    SceneName: Sudoku_Game
+    Icon: {fileID: 21300000, guid: 7e9c7ee7b5257174bb2ef0623769134c, type: 3}
+  - DisplayName: Minesweeper
+    TitleKey: game.minesweeper
+    SceneName: Minesweeper_Game
+    Icon: {fileID: 21300000, guid: f3d441aeaf725dc4a99dd1a05b95cff5, type: 3}
+  - DisplayName: Solitaire
+    TitleKey: game.solitaire
+    SceneName: Solitaire_Game
+    Icon: {fileID: 21300000, guid: 5fb432badbf5a974fb4d41e1f56e14c9, type: 3}
+  - DisplayName: 2048
+    TitleKey: game.2048
+    SceneName: Game2048_Game
+    Icon: {fileID: 21300000, guid: 20a11b417aa06044ebe5bc1f78916a27, type: 3}
+  - DisplayName: Snake
+    TitleKey: game.snake
+    SceneName: Snake_Game
+    Icon: {fileID: 21300000, guid: 2834078b3f3c93c4ca7fec1c4ff98433, type: 3}
+  - DisplayName: Blackjack
+    TitleKey: game.blackjack
+    SceneName: Blackjack_Game
+    Icon: {fileID: 21300000, guid: db620200735113d4b979da32ee9e0d5b, type: 3}
+  - DisplayName: Breakout
+    TitleKey: game.breakout
+    SceneName: Breakout_Game
+    Icon: {fileID: 21300000, guid: 079d5a51a142dd044b3fb6402642146e, type: 3}
+  - DisplayName: Checkers
+    TitleKey: game.checkers
+    SceneName: Checkers_Game
+    Icon: {fileID: 21300000, guid: 962428cffd8818f4ea9407fc6dc0948a, type: 3}
+  - DisplayName: Word Search
+    TitleKey: game.wordsearch
+    SceneName: WordSearch_Game
+    Icon: {fileID: 21300000, guid: 2c9810c36dcb6e94482f1d2b52d571ec, type: 3}
+  - DisplayName: Dominoes
+    TitleKey: game.domino
+    SceneName: Domino_Game
+    Icon: {fileID: 21300000, guid: ace11aefb947a8e46ae1c5953663815f, type: 3}
+  - DisplayName: Tetris
+    TitleKey: game.tetris
+    SceneName: Tetris_Game
+    Icon: {fileID: 21300000, guid: f9a60555b20155e4db5c157bf02de4da, type: 3}

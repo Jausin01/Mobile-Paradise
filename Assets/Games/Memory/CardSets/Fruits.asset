@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12aad89b3aad28f458c607cb321c0ff6, type: 3}
+  m_Name: Fruits
+  m_EditorClassIdentifier: Assembly-CSharp::MobileParadise.Games.Memory.View.MemoryCardSet
+  _faces:
+  - {fileID: 21300000, guid: aaf9670ae8943f2498814fa94dc95559, type: 3}
+  - {fileID: 21300000, guid: 5769344310d9eed4db240150dadd4517, type: 3}
+  - {fileID: 21300000, guid: 691f624382fdbb944bf33c035f7d2540, type: 3}
+  - {fileID: 21300000, guid: 7986bfbed556f064fa45bd93ef411dfc, type: 3}
+  - {fileID: 21300000, guid: 42e04734a9a30ef4dbf2a642a779f69c, type: 3}
+  - {fileID: 21300000, guid: cfab2603295472b4886e5ce48896b82a, type: 3}
+  - {fileID: 21300000, guid: fba9e0459de38944cbfb03811a8825f4, type: 3}
+  - {fileID: 21300000, guid: 0fc806361673e7648a143704e51f8656, type: 3}
+  - {fileID: 21300000, guid: c554a16fb6214d14a8e52728df9ac322, type: 3}
+  - {fileID: 21300000, guid: 1e4962c8fb0edee4bae6cb7aaab99559, type: 3}

@@ -27,7 +27,11 @@ namespace MobileParadise.Core.Audio
         private static readonly Dictionary<string, string> DisplayNames = new Dictionary<string, string>
         {
             { "music_menu", "Phantom Protocol" },
-            { "music_game", "Be My Rose" }
+            { "music_game", "Be My Rose" },
+            { "check_it_out", "Check It Out" },
+            { "chilled_pressure", "Chilled Pressure" },
+            { "new_chapter", "New Chapter" },
+            { "living_in_love", "Living In Love" }
         };
 
         private static AudioManager _instance;

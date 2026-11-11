@@ -16,16 +16,20 @@ namespace MobileParadise.Core.UI
 
         private RectTransform _rect;
         private RectTransform _parent;
+        private Vector2 _lastSize;
+        private Vector2 _lastParentSize;
 
         public void SetPadding(Vector2 padding)
         {
             _padding = padding;
+            _lastSize = Vector2.zero;   // forces the next Apply to recalculate
         }
 
         private void OnEnable()
         {
             _rect = (RectTransform)transform;
             _parent = _rect.parent as RectTransform;
+            _lastSize = Vector2.zero;
             Apply();
         }
 
@@ -41,7 +45,13 @@ namespace MobileParadise.Core.UI
             Vector2 size = _rect.rect.size;
             if (size.x <= 0f || size.y <= 0f) return;
 
-            Vector2 available = _parent.rect.size - _padding;
+            // Nothing changed since the last calculation: skip the work.
+            Vector2 parentSize = _parent.rect.size;
+            if (size == _lastSize && parentSize == _lastParentSize) return;
+            _lastSize = size;
+            _lastParentSize = parentSize;
+
+            Vector2 available = parentSize - _padding;
             float scale = Mathf.Min(available.x / size.x, available.y / size.y, _maxScale);
             if (scale <= 0f) return;
 

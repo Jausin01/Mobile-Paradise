@@ -17,10 +17,11 @@ namespace MobileParadise.Core.Performance
         private const int SmoothFrameRate = 60;
         private const int StillFrameRate = 30;
 
-        // Scenes with continuous movement. Every other scene only changes when the player taps.
+        // Scenes with continuous movement (the menu list scrolls and must feel smooth).
+        // Every other scene only changes when the player taps.
         private static readonly HashSet<string> SmoothScenes = new HashSet<string>
         {
-            "Snake_Game", "Breakout_Game", "Tetris_Game", "Game2048_Game"
+            SceneLoader.MenuScene, "Snake_Game", "Breakout_Game", "Tetris_Game", "Game2048_Game"
         };
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
@@ -32,6 +33,7 @@ namespace MobileParadise.Core.Performance
 
             GameObject handler = new GameObject("BackButtonHandler");
             handler.AddComponent<BackButtonHandler>();
+            if (Debug.isDebugBuild) handler.AddComponent<FpsCounter>();
             Object.DontDestroyOnLoad(handler);
 
             SceneManager.sceneLoaded += OnSceneLoaded;
